@@ -28,6 +28,12 @@ body {
     height: 120px;
     position: relative;
     box-shadow: 1px 1px 10px;
+
+    transition: transform .2s; /* Animation */
+}
+
+.element:hover {
+    transform: scale(1.02);
 }
 
 .element-content {
