@@ -1,0 +1,6 @@
+title: Odyssey Games
+description: Game Company based in Germany
+remote_theme: pages-themes/hacker@v0.2.0
+show_downloads: true
+plugins:
+- jekyll-remote-theme
