@@ -6,7 +6,7 @@
 }
 
 body {
-    
+    background-color: #52144b30;
 }
 
 .content-wrapper {
@@ -21,7 +21,7 @@ body {
 }
 
 .element {
-    background-color: #52144b50;
+    background-color: #eeeeee;
     border-radius: 15px;
     padding: 10px;
     margin: 5px;
