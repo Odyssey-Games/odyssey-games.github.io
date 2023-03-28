@@ -1,0 +1,46 @@
+.header {
+    position: relative;
+    background-color: #52144b;
+    height: 100px;
+    color: white;
+}
+
+.header-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
+
+.header-left img {
+    border-radius: 15px;
+    height: 100px;
+    padding: 5px;
+}
+
+.header-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.header-content img {
+    position: absolute;
+    height: 400px;
+    transform: translate(-50%, -200px);
+    left: 50%;
+}
+
+.header-socials {
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.header-socials img {
+    width: 50px;
+    height: 50px;
+}
