@@ -1,0 +1,79 @@
+.element {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 10px;
+    height: 160px;
+    position: relative;
+    box-shadow: 1px 1px 10px;
+}
+
+.element-wrapper {
+    height: auto;
+    margin: 10px;
+}
+
+.element-content {
+    position: absolute;
+    left: 160px;
+    padding: 10px;
+}
+
+.element-content p {
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+.element-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 160px;
+}
+
+.element-left img {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.element-options {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 10px;
+    border-left: 1px dotted;
+}
+
+/* all classes that start with 'element-more-info' */
+div[class^="element-more-info"] {
+    position: relative; /* position children relatively */
+    background-color: #eeeeee;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px;
+    transition: height 0.2s;
+}
+
+.info-banner {
+    width: 100%;
+}
+
+.info-section {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+    display: block;
+    background-color: #52144b10;
+}
+
+.info-section h2 {
+    padding-bottom: 5px;
+}
+
+.info-section p {
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
