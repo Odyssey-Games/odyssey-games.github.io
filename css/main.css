@@ -27,6 +27,11 @@ body {
     margin: 5px;
     border-radius: 10px;
     text-decoration: none;
+    transition: background-color .2s;
+}
+
+.button:hover {
+    background-color: #00000050;
 }
 
 .button img {
