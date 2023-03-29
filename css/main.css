@@ -30,13 +30,8 @@ body {
 }
 
 .element-wrapper {
-    transition: all .2s; /* Animation */
     height: auto;
     margin: 10px;
-}
-
-.element-wrapper:hover {
-    /*transform: scale(1.01);*/
 }
 
 .element-content {
