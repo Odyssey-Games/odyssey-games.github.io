@@ -22,6 +22,7 @@ body {
 
 .button {
     display: block;
+    cursor: pointer;
     background-color: #00000030;
     padding: 10px;
     margin: 5px;
