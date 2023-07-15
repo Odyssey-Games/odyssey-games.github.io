@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "de.odysseygames.binokutest",
+    "sha256_cert_fingerprints":
+    ["7C:B1:7A:35:49:5E:63:5C:E7:6E:49:AE:3B:57:F5:17:C6:06:27:6C:38:27:E3:5A:20:82:08:1F:61:14:34:C4"]
+  }
+}]
